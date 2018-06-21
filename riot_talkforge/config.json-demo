@@ -1,0 +1,43 @@
+{
+    "default_hs_url": "https://matrix.org",
+    "default_is_url": "https://vector.im",
+    "brand": "Riot",
+    "integrations_ui_url": "https://scalar-staging.riot.im/scalar-web/",
+    "integrations_rest_url": "https://scalar-staging.riot.im/scalar/api",
+    "integrations_widgets_urls": [
+        "https://scalar-staging.riot.im/scalar/api",
+        "https://scalar.vector.im/api"
+    ],
+    "bug_report_endpoint_url": "https://riot.im/bugreports/submit",
+    "features": {
+        "feature_rich_quoting": "labs",
+        "feature_pinning": "labs",
+        "feature_presence_management": "labs",
+        "feature_sticker_messages": "labs",
+        "feature_tag_panel": "enable"
+    },
+    "teamServerConfig": {
+        "supportEmail": "support@riot.im",
+        "teamServerURL": "https://riot.im/rts"
+    },
+    "teamTokenMap": {
+        "matrix": "88b6e5b3785960ab",
+        "geektime": "00065f1403571278",
+        "chatbotsummit": "ff5218fc50552903",
+        "studenthack": "2fa79727cc3f56df"
+    },
+    "referralBaseUrl": "https://riot.im/develop",
+    "welcomeUserId": "@riot-bot:matrix.org",
+    "piwik": {
+        "url": "https://piwik.riot.im/",
+        "siteId": 1
+    },
+    "roomDirectory": {
+        "servers": [
+            "matrix.org"
+        ]
+    },
+    "enable_presence_by_hs_url": {
+        "https://matrix.org": false
+    }
+}

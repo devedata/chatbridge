@@ -1,0 +1,6 @@
+IP address: 195.201.226.141
+Domain: talkforge.com
+
+
+
+ssh root@195.201.226.141

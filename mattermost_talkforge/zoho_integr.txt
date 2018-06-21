@@ -1,0 +1,23 @@
+1. Log in to zoho cliq
+
+2. Get auth token (paste and go by this link: https://accounts.zoho.eu/apiauthtoken/create?SCOPE=ZohoCliq/InternalAPI)
+
+3. Response example:
+#
+#Wed Jun 06 21:08:59 CEST 2018
+AUTHTOKEN=b2dd5ea5f4919a29069910afa08c1f60
+RESULT=TRUE
+
+
+POST
+ https://cliq.zoho.eu/api/v2/channelsbyname/testchannel/message
+ 
+ Request Header:
+ Authorization: b2dd5ea5f4919a29069910afa08c1f60
+ 
+ Payload
+ 
+ {"text":"Hi"} 
+
+
+curl -X POST -H "Content-type: application/json" -H "Authorization:Zoho-authtoken b2dd5ea5f4919a29069910afa08c1f60" https://cliq.zoho.eu/api/v2/channelsbyname/testing/message -d '{"text":"How to post a simple message to a Cliq Channel twice???"}'

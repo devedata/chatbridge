@@ -1,0 +1,23 @@
+This integration bridges a Slack channel into a Matrix room. Users in Matrix appear as bots in Slack. Slack users appear as users in Matrix. To configure:
+
+    In Slack, you must add an Inbound Webhooks and an Outgoing Webhooks integration to the channel you wish to bridge.
+    Please paste the URL that Slack tells you for the Inbound Webhooks to the "Slack incoming webhook URI" below and hit save.
+    Then please paste the URL that we give you for the Outgoing Webhooks to the "Slack outgoing webhook URI" and hit save.
+
+
+Income Webhook API:
+Past URL below to riot:
+https://hooks.slack.com/services/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 
+
+Slack Outgoing Webhook URI:
+Past URL below to slack:
+https://matrix.org/slackhook/1pTTj38P8JmcvBbyh3HN6oqNf2VXuZL9
+
+
+
+
+income man:
+https://projectjb.slack.com/services/BAMABG0RJ?added=1
+
+outcome man:
+https://projectjb.slack.com/services/362485289814?updated=1

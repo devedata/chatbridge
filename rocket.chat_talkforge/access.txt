@@ -1,0 +1,9 @@
+Test accounts:
+
+- Login:    test_admin
+- Password: ironman_82
+- admin: yes
+
+- Login: test_demo2
+- Password: ironman_82
+- admin: no

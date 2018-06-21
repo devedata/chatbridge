@@ -1,0 +1,15 @@
+register_new_matrix_user -c /etc/matrix-synapse/homeserver.yaml https://localhost
+
+- New user localpart [root]: test_admin
+- Password: blackWidow_539
+- Make admin [no]: yes
+
+- New user localpart [root]: test_demo2
+- Password: ironman_82
+- Make admin [no]: no
+
+
+POSTGRES:
+user: synapse
+passwd: wbuPWFtVdoKpXB1E
+db: synapse

@@ -1,0 +1,37 @@
+sudo snap install rocketchat-server
+
+# Updates happen automatically usually in a 6 hour window from time of release. If you want it quicker you can do:
+
+sudo snap refresh rocketchat-server
+
+
+
+# You can check on the status of Rocket.Chat with:
+
+sudo systemctl status snap.rocketchat-server.rocketchat-server.service
+
+
+# You can also check on the status of Mongo running in the snap with:
+
+sudo systemctl status snap.rocketchat-server.rocketchat-mongo.service
+
+
+
+# To see the logs from rocket.chat
+
+sudo journalctl -u snap.rocketchat-server.rocketchat-server
+
+
+# To see the logs from mongo
+
+sudo journalctl -u snap.rocketchat-server.rocketchat-mongo
+
+
+# restart Rocket.Chat:
+
+sudo systemctl restart snap.rocketchat-server.rocketchat-server
+
+
+#Also can restart Mongo via:
+
+sudo systemctl restart snap.rocketchat-server.rocketchat-mongo

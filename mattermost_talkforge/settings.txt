@@ -1,0 +1,10 @@
+MYSQL root: FQsnExmItT8ybr2H
+
+MYSQL mattermost user: mmuser / 1HuaRhb93mBrDVeF
+
+
+https://mattermost.talkforge.com/
+
+
+User:
+test_admin / ironman_82

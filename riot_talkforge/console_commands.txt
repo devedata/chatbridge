@@ -1,0 +1,6 @@
+nano /etc/matrix-synapse/homeserver.yaml
+
+systemctl restart matrix-synapse
+systemctl status matrix-synapse
+
+register_new_matrix_user -c /etc/matrix-synapse/homeserver.yaml https://localhost
